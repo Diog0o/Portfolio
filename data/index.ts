@@ -103,7 +103,7 @@ export const navItems = [
       id: 4,
       title: "Project Carma",
       des: "Developing an oral communication system and a mobile app for human-robot interaction, enhancing AI-driven disaster response and first responder collaboration.",
-      img: "/p4.webp",
+      img: "/p4.png",
       iconLists: ["/re.svg", "/ts.svg", "/nodejs.png", "/express-js.png", "/mongodb.svg"],
       link: "https://www.carmarobots.eu/carma-project/",
     },
