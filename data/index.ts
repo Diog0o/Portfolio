@@ -79,7 +79,7 @@ export const navItems = [
       img: "/p1.png",
       //React.js SCSS TypeScript Node.js Express MongoDB
       iconLists: ["/re.svg", "/expo.png" , "/sass.png", "/ts.svg", "/nodejs.png", "/express-js.png", "/mongodb.svg"],
-      link: "/https://github.com/Diog0o/pulse_backend",
+      link: "https://github.com/Diog0o/pulse_web_app",
     },
     {
       id: 2,
@@ -88,7 +88,7 @@ export const navItems = [
       img: "/p2.png",
       //React.js SCSS TypeScript RubyonRails PostgreSQL
       iconLists: ["/re.svg", "/expo.png", "/sass.png", "/ts.svg", "/ror.svg", "/postgresql.png"],
-      link: "/https://brandsandninjas.com/pt/vertical/horeca/",
+      link: "https://brandsandninjas.com/pt/vertical/horeca/",
     },
     {
       id: 3,
@@ -97,15 +97,15 @@ export const navItems = [
       img: "/p3.png",
       //React.js Tailwind TypeScript PostGresSQL Clerk Stripe
       iconLists: ["/re.svg", "/expo.png", "/tail.svg", "/ts.svg", "/postgresql.png", "/c.svg", "/stripe.svg"],
-      link: "/https://github.com/Diog0o/ryde_mobile_app",
+      link: "https://github.com/Diog0o/ryde_mobile_app",
     },
     {
       id: 4,
-      title: "E-Commerce Web Platform",
-      des: "Developed a full-stack e-commerce platform with an admin panel and user authentication.",
-      img: "/p4.svg",
+      title: "Project Carma - Helping Rescue Teams in Emergencies",
+      des: "developing an oral communication system and a mobile app for human-robot interaction, enhancing AI-driven disaster response and first responder collaboration.",
+      img: "/p4.webp",
       iconLists: ["/re.svg", "/ts.svg", "/nodejs.png", "/express-js.png", "/mongodb.svg"],
-      link: "/https://www.carmarobots.eu/carma-project/",
+      link: "https://www.carmarobots.eu/carma-project/",
     },
   ];
   
