@@ -12,7 +12,7 @@ export const navItems = [
       id: 1,
       title: "",
       description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[80vh]",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[68vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "",
