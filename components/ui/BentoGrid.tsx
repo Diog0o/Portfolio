@@ -8,6 +8,9 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import { TerminalGenerateEffect } from "./text-generate-effect";
+
+
 
 export const BentoGrid = ({
   className,
@@ -71,6 +74,7 @@ export const BentoGridItem = ({
     <div
       className={cn(
         "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        id === 1 ? "min-h-[500px] sm:min-h-[600px]" : "min-h-40",
         className
       )}
       style={{
@@ -81,6 +85,21 @@ export const BentoGridItem = ({
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
+          {id === 1 && (
+            <div className="w-full h-full bg-black align-center">
+              <div className="flex flex-row gap-2 bg-white/[0.95] p-3 align-center">
+                <div className="h-3 w-3 md:h-5 md:w-5 rounded-full bg-red-500" />
+                <div className="h-3 w-3 md:h-5 md:w-5 rounded-full bg-yellow-500" />
+                <div className="h-3 w-3 md:h-5 md:w-5 rounded-full bg-green-500" />
+              </div>
+              <div className="mt-3 ml-3 ">
+                <TerminalGenerateEffect 
+                  words=" Welcome to my portfolio! 👋\n\n My name is Diogo, and I'm currently finishing my Master's degree in Computer Science and Engineering at IST. I found my passion in transforming ideas into reality, which is why I dedicated so much time to mastering full-stack development.\n\n When I'm not coding, you can find me at the gym or enjoying the stunning sunsets in the most beautiful country in the world—Portugal. 🇵🇹 \n\n Take a look around—my work is just a scroll away!"
+                  className="text-sm md:text-xl lg:text-2xl"
+                />
+              </div>
+            </div>
+          )}
           {img && (
             <img
               src={img}
@@ -90,8 +109,9 @@ export const BentoGridItem = ({
           )}
         </div>
         <div
-          className={`absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"
-            } `}
+          className={`absolute right-0 -bottom-5 ${
+            id === 5 && "w-full opacity-80"
+          } `}
         >
           {spareImg && (
             <img
@@ -155,8 +175,9 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
               >
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
