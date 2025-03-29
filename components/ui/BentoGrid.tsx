@@ -94,7 +94,7 @@ export const BentoGridItem = ({
               </div>
               <div className="mt-3 ml-3 ">
                 <TerminalGenerateEffect 
-                  words=" Welcome to my portfolio! 👋\n\n My name is Diogo, and I'm currently finishing my Master's degree in Computer Science and Engineering at IST. I found my passion in transforming ideas into reality, which is why I dedicated so much time to mastering full-stack development.\n\n When I'm not coding, you can find me at the gym or enjoying the stunning sunsets in the most beautiful country in the world—Portugal. 🇵🇹 \n\n Take a look around—my work is just a scroll away!"
+                  words=" Welcome to my portfolio! 👋\n\n My name is Diogo, and I'm currently finishing my Master's degree in Computer Science and Engineering at IST. I found my passion in transforming ideas into reality, which is why I dedicated so much time to mastering full-stack development.\n\n When I'm not coding, you can find me at the gym or enjoying the stunning sunsets in the most beautiful country in the world, Portugal. 🇵🇹 \n\n Take a look around! My work is just a scroll away!"
                   className="text-sm md:text-xl"
                 />
               </div>
