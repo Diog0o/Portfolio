@@ -11,7 +11,6 @@ export const TerminalGenerateEffect = ({
   className?: string;
   speed?: number;
 }) => {
-  // Pre-process the input string to handle escape sequences
   const processedWords = words.replace(/\\n/g, '\n');
   
   const [displayedText, setDisplayedText] = useState("");
