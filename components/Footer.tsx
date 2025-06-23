@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Combining expertise in AI, cybersecurity, and full-stack development, I'm ready to deliver solutions that make a difference.
+          Combining AI, cybersecurity, and full-stack development, I&apos;m ready to deliver solutions that make a difference.
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
