@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,21 +18,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <>
-      <html data-theme="dark" lang="en" suppressHydrationWarning>
-        <body
-          className={`${inter.className} antialiased dark`}
+    <html data-theme="dark" lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} antialiased dark`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
         >
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-        </body>
-      </html>
-    </>
+          {children}
+
+          <Analytics />
+          <SpeedInsights />
+        </ThemeProvider>
+      </body>
+    </html>
   );
 }
