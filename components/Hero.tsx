@@ -37,12 +37,12 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
-            words="Transforming Concepts into User Experiences"
+            words="Shaping Ideas Through Data and Development"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Diogo, a Software Engineer based in Portugal.
+            Hi! I&apos;m Diogo, a Data Engineer based in Portugal.
           </p>
 
           <a href="#about">

@@ -4,6 +4,7 @@ import Grid from "@/components/Grid";
 import { navItems } from "@/data";
 import RecentProjects from "@/components/RecentProjects";
 import { TimelineDemo } from "@/components/ui/TimelineDemo";
+import MovingTechCarousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <FloatingNav navItems={navItems}/>
         <Hero />
         <Grid />
+        <MovingTechCarousel />
         <RecentProjects />
         <TimelineDemo />
         <Footer />

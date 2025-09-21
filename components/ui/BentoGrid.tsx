@@ -50,8 +50,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["React.js", "Node.js", "Typescript"];
-  const rightLists = ["Next.js", "Java", "SQL"];
+  const leftLists = ["React.js", "Node.js", "Docker"];
+  const rightLists = ["Spark", "Python", "SQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -94,7 +94,7 @@ export const BentoGridItem = ({
               </div>
               <div className="mt-3 ml-3 ">
                 <TerminalGenerateEffect 
-                  words=" Welcome to my portfolio! 👋\n\n My name is Diogo, and I'm currently finishing my Master's degree in Computer Science and Engineering at IST. I found my passion in transforming ideas into reality, which is why I dedicated so much time to mastering full-stack development.\n\n When I'm not coding, you can find me at the gym or enjoying the stunning sunsets in the most beautiful country in the world, Portugal. 🇵🇹 \n\n Take a look around! My work is just a scroll away!"
+                  words=" My name is Diogo, and I’m a Data Engineer at McKinsey & Company while finishing the last year of my Master’s degree in Computer Science and Engineering at IST specializing in AI and Cybersecurity.\n\nI’m passionate about turning ideas into reality — whether through full-stack development or by building scalable data solutions. Exploring the intersection of data and software is what truly excites me.\n\nWhen I’m not coding, you’ll probably find me at the gym or watching the sun set over the most beautiful country in the world, Portugal. 🇵🇹\n\nTake a look around — my work is just a scroll away!"
                   className="text-sm md:text-xl"
                 />
               </div>
