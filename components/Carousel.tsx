@@ -24,6 +24,7 @@ const bottomRowTech = [
   { src: "kubernetes.png", name: "Kubernetes" },
   { src: "js.png", name: "JavaScript" },
   { src: "java.png", name: "Java" },
+  { src: "nodejs.svg", name: "Node.js" }
 ];
 
 export default function MovingTechCarousel() {

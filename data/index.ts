@@ -78,7 +78,7 @@ export const navItems = [
       des: "Creator of the PULSE mobile app, a platform that helps users track their workouts and diet.",
       img: "/p1.png",
       //React.js SCSS TypeScript Node.js Express MongoDB
-      iconLists: ["/re.svg", "/expo.png" , "/sass.png", "/ts.svg", "/nodejs.png", "/express-js.png", "/mongodb.svg"],
+      iconLists: ["/re.svg", "/expo.png" , "/sass.png", "/ts.svg", "/nodejs.svg", "/express-js.png", "/mongodb.svg"],
       link: "https://github.com/Diog0o/pulse_web_app",
     },
     {
@@ -104,7 +104,7 @@ export const navItems = [
       title: "Project Carma",
       des: "Developing an oral communication system and a mobile app for human-robot interaction, enhancing AI-driven disaster response and first responder collaboration.",
       img: "/p4.png",
-      iconLists: ["/re.svg", "/ts.svg", "/nodejs.png", "/express-js.png", "/mongodb.svg"],
+      iconLists: ["/re.svg", "/ts.svg", "/nodejs.svg", "/express-js.png", "/mongodb.svg"],
       link: "https://www.carmarobots.eu/carma-project/",
     },
   ];
